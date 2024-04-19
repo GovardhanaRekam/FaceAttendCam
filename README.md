@@ -31,7 +31,7 @@ Welcome to the Smart Vision Attendance System! This innovative project leverages
 
     Obtain IP Address: After the ESP32-CAM connects to the WiFi, it will display its assigned IP address in the Serial Monitor.
 
-##Configuring the Python Script
+## Configuring the Python Script
 
     Configure the IP Address: Update the url variable in the project.py script with the IP address shown in the ESP32-CAM's Serial Monitor:
 
@@ -39,13 +39,13 @@ Welcome to the Smart Vision Attendance System! This innovative project leverages
 
 url = 'http://<ESP32_IP>/cam-hi.jpg'
 
-##Install Python Dependencies:
+## Install Python Dependencies:
 
 bash
 
     pip install numpy opencv-python face_recognition urllib3
 
-##Running the System
+## Running the System
 
 Execute the project.py script to start the system. The script processes images from the ESP32-CAM, recognizes faces, and logs attendance in a CSV file.
 Contributing
@@ -55,6 +55,11 @@ Contributing
 Here is a screenshot of the code being uploaded to the Arduino IDE for the ESP32-CAM:
 
 ![Uploading Code](/toupload.jpeg)
+## Video Demonstration
+
+Check out the video demonstration of the Smart Vision Attendance System on YouTube:
+
+[![Smart Vision Attendance System Demo](https://img.youtube.com/vi/mVgPbeMpcf4/0.jpg)](https://youtu.be/mVgPbeMpcf4)
 
 
 Your contributions are welcome! Please feel free to fork the repository, make improvements, and submit pull requests.
