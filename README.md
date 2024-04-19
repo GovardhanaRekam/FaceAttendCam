@@ -26,7 +26,7 @@ Welcome to the Smart Vision Attendance System! This innovative project leverages
    const char* WIFI_SSID = "your_wifi_ssid";
    const char* WIFI_PASS = "your_wifi_password";
 
-    Replace your_wifi_ssid and your_wifi_password with your actual WiFi credentials.
+Replace your_wifi_ssid and your_wifi_password with your actual WiFi credentials.
 4. Upload the Firmware: Ensure GPIO 0 is grounded only during the firmware upload. After uploading, reset the ESP32-CAM by disconnecting GPIO 0.
 
     Obtain IP Address: After the ESP32-CAM connects to the WiFi, it will display its assigned IP address in the Serial Monitor.
@@ -35,9 +35,8 @@ Welcome to the Smart Vision Attendance System! This innovative project leverages
 
     Configure the IP Address: Update the url variable in the project.py script with the IP address shown in the ESP32-CAM's Serial Monitor:
 
-    python
-
-url = 'http://<ESP32_IP>/cam-hi.jpg'
+    python   
+       url = 'http://<ESP32_IP>/cam-hi.jpg'
 
 ## Install Python Dependencies:
 
