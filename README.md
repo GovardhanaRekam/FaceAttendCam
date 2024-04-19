@@ -59,6 +59,9 @@ Here is a screenshot of the code being uploaded to the Arduino IDE for the ESP32
 Check out the video demonstration of the Smart Vision Attendance System on YouTube:
 
 [![Smart Vision Attendance System Demo](https://img.youtube.com/vi/mVgPbeMpcf4/0.jpg)](https://youtu.be/mVgPbeMpcf4)
+## format of output in csv file.
+
+![csv output](/Screenshot%20from%202024-04-17%2022-14-15.png)
 
 
 Your contributions are welcome! Please feel free to fork the repository, make improvements, and submit pull requests.
