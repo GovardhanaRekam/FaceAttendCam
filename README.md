@@ -1,7 +1,7 @@
 # Smart Vision Attendance System 📸
 
 Welcome to the Smart Vision Attendance System! This innovative project leverages the ESP32-CAM module and Python programming to implement a smart attendance system based on facial recognition technology. This solution is designed to enhance efficiency in recording attendance in educational or workplace environments with the convenience of automated systems.
-
+![Final Output](/Screenshot%20from%202024-04-18%2000-08-11.png)
 ## Features 🚀
 
 - **Real-time Facial Recognition**: Identifies faces quickly and accurately from a live video feed.
@@ -49,6 +49,13 @@ bash
 
 Execute the project.py script to start the system. The script processes images from the ESP32-CAM, recognizes faces, and logs attendance in a CSV file.
 Contributing
+
+## Uploading Code to ESP32-CAM
+
+Here is a screenshot of the code being uploaded to the Arduino IDE for the ESP32-CAM:
+
+![Uploading Code](/toupload.jpeg)
+
 
 Your contributions are welcome! Please feel free to fork the repository, make improvements, and submit pull requests.
 Acknowledgements
