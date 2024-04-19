@@ -39,7 +39,7 @@ Welcome to the Smart Vision Attendance System! This innovative project leverages
 
 url = 'http://<ESP32_IP>/cam-hi.jpg'
 
-Install Python Dependencies:
+##Install Python Dependencies:
 
 bash
 
@@ -58,7 +58,7 @@ Here is a screenshot of the code being uploaded to the Arduino IDE for the ESP32
 
 
 Your contributions are welcome! Please feel free to fork the repository, make improvements, and submit pull requests.
-Acknowledgements
+## Acknowledgements
 
 Thank you for your interest in the Smart Vision Attendance System. This project was made possible by the contributions of numerous individuals and the open-source community.
 License
